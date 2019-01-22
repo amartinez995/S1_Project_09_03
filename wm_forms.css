@@ -13,7 +13,11 @@
 
 */
 
-/* Field Set Styles */
+/*
+==================================================
+Field Set Styles
+==================================================
+*/
 fieldset {
     border: 0px;
     width: 60%;
@@ -21,7 +25,31 @@ fieldset {
     margin-bottom: 10px;
     margin-left: 0px;
     margin-right: 0px;
+    -moz-border: 0px;
+    -moz-width: 60%;
+    -moz-margin-top: 10px;
+    -moz-margin-bottom: 10px;
+    -moz-margin-left: 0px;
+    -moz-margin-right: 0px;
+    -ms-border: 0px;
+    -ms-width: 60%;
+    -ms-margin-top: 10px;
+    -ms-margin-bottom: 10px;
+    -ms-margin-left: 0px;
+    -ms-margin-right: 0px;
+    -webkit-border: 0px;
+    -webkit-width: 60%;
+    -webkit-margin-top: 10px;
+    -webkit-margin-bottom: 10px;
+    -webkit-margin-left: 0px;
+    -webkit-margin-right: 0px;
 }
+
+/* 
+==================================================
+The above piece of code changes the following: border, width, top/bottom/left/right margins of all fieldset elements to the following respective values: 0px, 60%, 10px, 10px, 0px, 0px; as well as adding cross-browser extensions so that the above piece of code will function properly with the following browsers: Safari, Mozilla Firefox, Internet Explorer, Microsoft Edge, Google Chrome.
+==================================================
+*/
 
 fieldset legend {
     background-color: rgb(232, 232, 232);
@@ -30,9 +58,37 @@ fieldset legend {
     margin-bottom: 2px;
     margin-left: 0px;
     margin-right: 0px;
+    -moz-background-color: rgb(232, 232, 232);
+    -moz-width: 100%;
+    -moz-margin-top: 2px;
+    -moz-margin-bottom: 2px;
+    -moz-margin-left: 0px;
+    -moz-margin-right: 0px;
+    -ms-background-color: rgb(232, 232, 232);
+    -ms-width: 100%;
+    -ms-margin-top: 2px;
+    -ms-margin-bottom: 2px;
+    -ms-margin-left: 0px;
+    -ms-margin-right: 0px;
+    -webkit-background-color: rgb(232, 232, 232);
+    -webkit-width: 100%;
+    -webkit-margin-top: 2px;
+    -webkit-margin-bottom: 2px;
+    -webkit-margin-left: 0px;
+    -webkit-margin-right: 0px;
 }
 
-/* DIV Styles */
+/* 
+==================================================
+The above piece of code changes the following: background color, width, top/bottom/left/right margins of all legend (the ones that are within fieldset elements, at least) elements to the following respective values: rgb(232, 232, 232), 100%, 2px, 2px, 0px, 0px; as well as adding cross-browser extensions so that the above piece of code will function properly with the following browsers: Safari, Mozilla Firefox, Internet Explorer, Microsoft Edge, Google Chrome.
+==================================================
+*/
+
+/*
+==================================================
+DIV Styles
+==================================================
+*/
 div.slider {
     float: left;
     width: 60%;
@@ -40,13 +96,206 @@ div.slider {
     margin-bottom: 2px;
     margin-left: 0px;
     margin-right: 0px;
+    -moz-float: left;
+    -moz-width: 60%;
+    -moz-margin-top: 2px;
+    -moz-margin-bottom: 2px;
+    -moz-margin-left: 0px;
+    -moz-margin-right: 0px;
+    -ms-float: left;
+    -ms-width: 60%;
+    -ms-margin-top: 2px;
+    -ms-margin-bottom: 2px;
+    -ms-margin-left: 0px;
+    -ms-margin-right: 0px;
+    -webkit-float: left;
+    -webkit-width: 60%;
+    -webkit-margin-top: 2px;
+    -webkit-margin-bottom: 2px;
+    -webkit-margin-left: 0px;
+    -webkit-margin-right: 0px;
 }
 
+/* 
+==================================================
+The above piece of code changes the following: float, width, top/bottom/left/right margins of all div elements (all div elements belonging to the "slider" class) to the following respective values: left, 60%, 2px, 2px, 0px, 0px; as well as adding cross-browser extensions so that the above piece of code will function properly with the following browsers: Safari, Mozilla Firefox, Internet Explorer, Microsoft Edge, Google Chrome.
+==================================================
+*/
 
+/*
+==================================================
+Control Styles
+==================================================
+*/
+label {
+    float: left;
+    clear: left;
+    display: block;
+    width: 40%;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    margin-left: 0px;
+    margin-right: 0px;
+    -moz-float: left;
+    -moz-clear: left;
+    -moz-display: block;
+    -moz-width: 40%;
+    -moz-margin-top: 2px;
+    -moz-margin-bottom: 2px;
+    -moz-margin-left: 0px;
+    -moz-margin-right: 0px;
+    -ms-float: left;
+    -ms-clear: left;
+    -ms-display: block;
+    -ms-width: 40%;
+    -ms-margin-top: 2px;
+    -ms-margin-bottom: 2px;
+    -ms-margin-left: 0px;
+    -ms-margin-right: 0px;
+    -webkit-float: left;
+    -webkit-clear: left;
+    -webkit-display: block;
+    -webkit-width: 40%;
+    -webkit-margin-top: 2px;
+    -webkit-margin-bottom: 2px;
+    -webkit-margin-left: 0px;
+    -webkit-margin-right: 0px;
+}
 
-/* Control Styles */
+/* 
+==================================================
+The above piece of code changes the following: float, clear, display, width, top/bottom/left/right margins of all label elements to the following respective values: left, left, block, 40%, 2px, 2px, 0px, 0px; as well as adding cross-browser extensions so that the above piece of code will function properly with the following browsers: Safari, Mozilla Firefox, Internet Explorer, Microsoft Edge, Google Chrome.
+==================================================
+*/
 
+input,
+select {
+    margin-top: 2px;
+    margin-bottom: 2px;
+    margin-left: 0px;
+    margin-right: 0px;
+    -moz-margin-top: 2px;
+    -moz-margin-bottom: 2px;
+    -moz-margin-left: 0px;
+    -moz-margin-right: 0px;
+    -ms-margin-top: 2px;
+    -ms-margin-bottom: 2px;
+    -ms-margin-left: 0px;
+    -ms-margin-right: 0px;
+    -webkit-margin-top: 2px;
+    -webkit-margin-bottom: 2px;
+    -webkit-margin-left: 0px;
+    -webkit-margin-right: 0px;
+}
 
+/* 
+==================================================
+The above piece of code changes the following: top/bottom/left/right margins of all input and select elements to the following respective values: 2px, 2px, 0px, 0px; as well as adding cross-browser extensions so that the above piece of code will function properly with the following browsers: Safari, Mozilla Firefox, Internet Explorer, Microsoft Edge, Google Chrome.
+==================================================
+*/
 
+input.slider:matches([type='radio']) {
+    width: 60%;
+    -moz-width: 60%;
+    -ms-width: 60%;
+    -webkit-width: 60%;
+}
 
-/* Placeholder Styles */
+/* 
+==================================================
+The above piece of code changes the following: width of all input (all input elements belonging to the "slider" class as well as having the "radio" type) elements to the following respective values: 60%; as well as adding cross-browser extensions so that the above piece of code will function properly with the following browsers: Safari, Mozilla Firefox, Internet Explorer, Microsoft Edge, Google Chrome.
+==================================================
+*/
+
+select {
+    display: block;
+    float: left;
+    width: 120px;
+    -moz-display: block;
+    -moz-float: left;
+    -moz-width: 120px;
+    -ms-display: block;
+    -ms-float: left;
+    -ms-width: 120px;
+    -webkit-display: block;
+    -webkit-float: left;
+    -webkit-width: 120px;
+}
+
+/* 
+==================================================
+The above piece of code changes the following: display, float, width of all select elements to the following respective values: block, left, 120px; as well as adding cross-browser extensions so that the above piece of code will function properly with the following browsers: Safari, Mozilla Firefox, Internet Explorer, Microsoft Edge, Google Chrome.
+==================================================
+*/
+
+input:matches([type='color']) {
+    display: block;
+    float: left;
+    width: 75px;
+    -moz-display: block;
+    -moz-float: left;
+    -moz-width: 75px;
+    -ms-display: block;
+    -ms-float: left;
+    -ms-width: 75px;
+    -webkit-display: block;
+    -webkit-float: left;
+    -webkit-width: 75px;
+}
+
+/* 
+==================================================
+The above piece of code changes the following: display, float, width of all input (all input elements that have the "color" type) elements to the following respective values: block, left, 75px; as well as adding cross-browser extensions so that the above piece of code will function properly with the following browsers: Safari, Mozilla Firefox, Internet Explorer, Microsoft Edge, Google Chrome.
+==================================================
+*/
+
+textarea {
+    font-size: 1.5em;
+    width: 100%;
+    height: 200px;
+    margin-bottom: 15px;
+    -moz-font-size: 1.5em;
+    -moz-width: 100%;
+    -moz-height: 200px;
+    -moz-margin-bottom: 15px;
+    -ms-font-size: 1.5em;
+    -ms-width: 100%;
+    -ms-height: 200px;
+    -ms-margin-bottom: 15px;
+    -webkit-font-size: 1.5em;
+    -webkit-width: 100%;
+    -webkit-height: 200px;
+    -webkit-margin-bottom: 15px;
+}
+
+/* 
+==================================================
+The above piece of code changes the following: font size, width, height, bottom margin of all textarea elements to the following respective values: 1.5em, 100%, 200px, 15px; as well as adding cross-browser extensions so that the above piece of code will function properly with the following browsers: Safari, Mozilla Firefox, Internet Explorer, Microsoft Edge, Google Chrome.
+==================================================
+*/
+
+/*
+==================================================
+Placeholder Styles
+==================================================
+*/
+textarea::placeholder {
+    background-color: rgb(255, 255, 191);
+    color: rgb(255, 151, 151);
+    font-size: 1.5em;
+    -moz-background-color: rgb(255, 255, 191);
+    -moz-color: rgb(255, 151, 151);
+    -moz-font-size: 1.5em;
+    -ms-background-color: rgb(255, 255, 191);
+    -ms-color: rgb(255, 151, 151);
+    -ms-font-size: 1.5em;
+    -webkit-background-color: rgb(255, 255, 191);
+    -webkit-color: rgb(255, 151, 151);
+    -webkit-font-size: 1.5em;
+}
+
+/* 
+==================================================
+The above piece of code changes the following: background color, font/text color, font/text size of all textarea (all textareas with a placeholder) elements to the following respective values: rgb(255, 255, 191), rgb(255, 151, 151), 1.5em; as well as adding cross-browser extensions so that the above piece of code will function properly with the following browsers: Safari, Mozilla Firefox, Internet Explorer, Microsoft Edge, Google Chrome.
+==================================================
+*/
